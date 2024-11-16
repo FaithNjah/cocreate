@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.features{
+    background-color: #F3F4F6;
+    justify-items: center;
+    align-items: center;
+}
+
+.featureHeader h1{
+    padding-top: 30px;
+    font-size: 30px;
+    color:#001122;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+}
+
+.featureList{
+    background-color: #F3F4F6;
+    display: flex;
+    justify-content: space-evenly;
+    min-height: 70vh;
+    padding-left: 55px;
+    padding-right: 55px;
+    
+}
+
+.featureCard{
+   background-color: #E0DCDC;
+   margin: 25px;
+   border-radius: 20px;
+   text-align: center;
+   flex: 1;
+   margin-top: 50px;
+   padding-left: 25px;
+   padding-right: 25px;
+   text-align: left;
+   margin-bottom: 100px;
+}
+
+/* flex had a big influence on Icon height and width here */
+.featureIcon {
+    height: 60px; 
+    width: 60px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    border-radius: 50%; 
+    margin-top: -30px;
+    margin-bottom: 30px;
+}
+
+.featureTitle{
+    font-size: 24px;
+    color:#001122;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    margin: 10px 0;
+}
+
+.featureDescript{
+    font-size: 20px;
+    color:#001122CC;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    margin-top: 50px;
+}
+
+.featureLink{
+    font-size: 24px;
+    color:#001122;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+

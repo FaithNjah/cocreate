@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.benefits {
+    display: flex;
+    font-family: "Inter", sans-serif;
+    justify-content: space-between;
+    background: linear-gradient(278.06deg, #9747FF 1.24%, #F3F4F6 127.87%);
+    min-height: 100vh;
+    padding-top: 50px;
+}
+
+
+.Text {
+    flex: 1;
+    max-width: 30%; 
+    border-radius: 8px;
+    margin-left: 60px;
+    text-align: justify;
+}
+
+.text{
+    font-weight: 700;
+    display: block;
+    margin: 0.5rem;
+}
+
+.mySwiper{
+    top: 50px;
+   }
+
+.mySwiper-header{
+    top: 15px;
+}
+
+.mySwiper p{
+    font-size:1.3rem;
+    line-height: 1.2;
+    top: 70px;
+}
+
+button{
+    padding: 1.5rem 3.3rem;
+    font-size: 1.1rem;
+    border-radius: 10px;
+    margin-top: 70px;
+    align-items: center;
+    background-color: blue;
+    color: white;
+   
+}
+
+button:hover{
+    transform: scale(1.1);
+}
+
+.images {
+    flex: 1;
+    max-width: 55%; 
+}
+
+.mySwiper-image img{
+    border: 3.5px solid black;
+    border-radius: 19px;
+    margin-top: 40px;
+}
+
+.swiper-pagination {
+    display: none !important; 
+}
+
+.images .swiper-slide {
+    transition: transform 0.7s ease; /* Smooth transition for scale */
+    transform: scale(0.8); /* Start smaller at 80% size */
+}
+
+.images .swiper-slide-active {
+    transform: scale(1); /* Scale to full size when active */
+}

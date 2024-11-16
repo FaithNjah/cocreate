@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.homePage {
+    position: relative; 
+    min-height: 135vh; 
+    color: white;
+    font-family: "Inter", sans-serif;
+}
+
+.homePage::before {
+    content: ''; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url("../assets/images/Homepage-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    filter: brightness(20%);
+    z-index: -1; 
+}
+
+.image{
+    width: auto;
+    max-width: 250px; 
+    height: auto;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.5rem;
+    padding: 20px;
+}
+
+.nav ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 1.5rem; 
+}
+
+.buttons{
+    justify-content: space-between;
+    display: flex;
+}
+
+.buttons button{
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    margin-right: 1rem;
+    border-radius: 10px;
+    margin-top: -5px;
+}
+
+.login{
+    background-color: blue;
+    color: white;
+}
+
+.signup{
+    background-color: transparent;
+    color: white;
+    border:1px solid blue;
+}
+
+.hero{
+    padding-top: 4rem;
+    margin-top: 2rem;
+}
+
+.hero span{
+    font-size:3.0rem;
+    line-height: 1.2;
+    font-weight: 700;
+    text-align: left;
+}
+
+.line{
+    display: block;
+    margin: 0.5rem;
+}
+
+.heroSection h1{
+    margin-top: 5rem;
+}
+
+.heroSection .most{
+    color: rgb(214, 43, 226);
+}
+
+.heroSection{
+    display: flex;
+    justify-content: space-around;
+}
+
+.heroSection button{
+    padding: 1rem 5rem;
+    font-size: 1rem;
+    margin-right: 1rem;
+    background-color: transparent;
+    color: white;
+    border:3px solid blue;
+    border-radius: 10px;
+    /* transition: transform 0.3s ease; */
+}
+
+.heroSection button:hover {
+    transform: scale(1.1); /* Increase size by 10% */
+  }
+
+.heroSection p{
+    font-size: 1.5rem; 
+    text-align: left;
+    margin-top: 1rem;
+    margin-left: 1.5rem;
+}
+
+.HeroImage{
+    margin-top: 4rem;
+    max-width: 100%;
+    height: auto;
+}

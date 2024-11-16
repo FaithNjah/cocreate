@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+.footer{
+    height: 55vh;
+    background: #171515;
+    color: aliceblue;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    font-size: 25px;
+    padding-top: 40px;
+}
+
+.footer-top{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.footer-top1 img{
+height: 150px;
+width: 150px;
+object-fit: contain;
+}
+
+.footer-top p{
+    margin-top: 20px;
+}
